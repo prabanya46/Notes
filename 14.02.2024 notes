@@ -1,0 +1,22 @@
+GPIO - Genral Purpose Input Output
+uses
+    Reading digital signals
+    Issuing interrupts
+    Generating triggers for external components
+GPIO Pin - Generic pin whose value consists of one of two voltage settings can be programmed through software
+GPIO Port - Defined grouping of GPIO pins(STM32 16 pins)
+
+One pin can be programed as GPIO pin or USART pin this is called multiplexing
+
+Input 
+    After reset GPIO is default to input mode
+    Default GPIO pins will be high Z state or floating state
+    Keeping pins in high Z state leads to more power consumption
+By connecting resistor input can be made stable 
+    Internal pull down
+    Internal pull up
+Output
+     Open drain state
+     Pull up
+     Push Pull configuration
+Clock should be enabled to make the peripheral work.
