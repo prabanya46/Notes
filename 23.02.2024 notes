@@ -1,0 +1,36 @@
+History 
+     1983 - GNU ny Richard Stallman
+     GNU Project produce a whole OS just like proprietary UNIX
+     1992 - completed all of major OS components except for their kernel
+     1991 - Linux Torvalds started LINUX kernel
+     LINUX and GNU together formed first completely free software OS
+
+LINUX is a kernel and not OS
+
+path 
+    relative path
+    absolute path
+
+Commands
+    mkdir
+    rm -rf
+    ls
+    ls -l
+    al 
+    i
+    ps
+    ps -ax
+    which ;s
+    which cd
+    echo $PATH
+
+command
+    internal command
+    extrenal command
+
+man page is used to find how a command can be used 
+manual page is used to find about external commands
+help can be used to study about internal commands
+
+man has 9 pages in total
+LINUX will consider everything as a file if it is not a file it is a process.
