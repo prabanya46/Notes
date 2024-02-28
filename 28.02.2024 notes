@@ -1,0 +1,16 @@
+ARM Architecture
+       Architecture specifies how processor will behave
+       It describes what functionality the software can rely on the hardware
+
+ARM Architecture specifies
+       Instruction set
+       Register set
+       Exception model
+       Memory model
+       Debug Trace and Profiling
+
+RISC
+       Reduced Instruction Set Computer
+       Simple Instructions
+       Simple addressing modes
+       Load Store Architecture
