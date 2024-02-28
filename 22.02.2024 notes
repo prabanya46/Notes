@@ -1,0 +1,42 @@
+sudo minicom -s
+
+minicom is a software
+
+serial port setup
+
+sudo minicom -s -> serial port setup -> change settings : A -> TTYACMO -> change settings : E -> Baud Rate -> hardware,software flow control - NO -> Enter -> Save setup as dfi
+
+System On Module - SOM
+System On Chip - SOC
+Single Board Chip - SBC
+
+architecture 
+    |
+  core
+    |
+   SOC    A5D2X  (X can be any number here it is 7)
+    |
+   SOM    Phycore A5D2X
+    |
+   SBC    Rugged Board A5D2X
+
+
+Booting methods - Flash,SD card,Network boot
+
+Flash memory is like hardware to the board
+
+Boot ROM -> SOC
+
+BootROM loads AT Bootstrap code
+AT Bootstrap
+RAM -> initialize and boot U boot code
+U boot loads .dtb and Z image
+
+.dts - device tree source
+.dtsi - device tree source include
+
+.dtb - device tree binary 
+
+.dtb is sent as argument for kernel
+.dtb knowns the information about the peripharals
+
