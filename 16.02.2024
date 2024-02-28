@@ -1,0 +1,9 @@
+#define peripheral_base      (0X 4000 0000 0000)
+#define AHB1_offset          (0X 0002 0000 0000)
+#define AHB1                 (peripheral_base + AHB1_offset)
+
+ (*(volatile unsigned int *)(RCC_Base + AHB1ENR_Offset))
+
+after * and type casting only it changes to address
+
+driver -> device -> ST -> STM32F4XX -> Include -> STM32F4xx
