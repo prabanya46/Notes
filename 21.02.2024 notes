@@ -1,0 +1,25 @@
+parallel communication - 8 bit data is transferred the same time
+serial communication - 8 bit data is transferred one bit at a time 
+
+serial communication 
+         Synchronous - clock is transmitted with the data
+         Asynchronous - no clock is transmitted. Transmitter and reciever agree on the clock speed for the data transmission(baud rate)
+
+UART - Universal Asynchronous Receiver Transmitter
+
+Duplex - data can be transmitted and reciever
+Simplex - data can be transmitted only or recieved only
+Half duplex - data can be transmitted in only one way at a time
+Full duplex - data can be transmitted in both ways at a time 
+
+UART is full duplex
+
+In asynchronous transmission it is packed between start and stop bit
+
+parity - used for error checking 
+      even parity
+      odd parity
+
+mode - reciver or transmitter mode
+
+word length - length of the data (8 bit or 9 bit)
